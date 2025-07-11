@@ -63,7 +63,7 @@
   margin-bottom: 30px;
 }
 
-.stats-grid {
+.stats {
   display: flex;
   justify-content: center;
   gap: 60px;
@@ -88,12 +88,6 @@
   margin-top: 8px;
 }
 
-/* Responsive for mobile */
-@media (max-width: 600px) {
-  .stats-grid {
-    flex-direction: column;
-    gap: 20px;
-  }
 
   .stats-section h2 {
     font-size: 1.25rem;
@@ -102,7 +96,6 @@
   .stat .number {
     font-size: 1.75rem;
   }
-}
 
 .reviews-section {
   background-color: #f5f7ff;
@@ -117,7 +110,7 @@
   color: #1e1e1e;
 }
 
-.reviews-grid {
+.reviews{
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -153,7 +146,7 @@
   margin-bottom: 20px;
 }
 
-.reviewer {
+.reviewer-grid {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -169,8 +162,8 @@
   font-size: 0.8rem;
   color: #888;
 }
-/* Responsive */ (max-width: 768px) 
-  .reviews-grid {
+ (max-width: 768px) 
+  .reviews-grid{
     flex-direction: column;
     align-items: center;
   }
@@ -199,7 +192,7 @@
   padding-left: 40px;
 }
 
-.contact-form {
+.contact-grid {
   display: flex;
   flex-direction: column;
 }
