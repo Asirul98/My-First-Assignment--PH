@@ -63,7 +63,7 @@
   margin-bottom: 30px;
 }
 
-.stats {
+.stats-grid {
   display: flex;
   justify-content: center;
   gap: 60px;
@@ -88,7 +88,10 @@
   margin-top: 8px;
 }
 
-
+  .stats-grid {
+    flex-direction: column;
+    gap: 20px;
+  }
   .stats-section h2 {
     font-size: 1.25rem;
   }
@@ -110,7 +113,7 @@
   color: #1e1e1e;
 }
 
-.reviews{
+.reviews-grid{
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -146,7 +149,7 @@
   margin-bottom: 20px;
 }
 
-.reviewer-grid {
+.reviewer {
   display: flex;
   align-items: center;
   gap: 10px;
